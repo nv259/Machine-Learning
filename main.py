@@ -89,4 +89,8 @@ if __name__ == "__main__":
     print("------------------------")
     print("FOUND THETA 0: {}, THETA 1: {}, THETA 2: {} IS OPTIMUM".format(theta_0,theta[0], theta[1]))
     print("COST: {}".format(compute_cost(theta_0, theta, X, Y)))
-    
+
+#     =====CYCLE 631468=====
+# Theta 0: 17.665405611242054, Theta 1: 0.05244614926070475, Theta 2: -0.001701217481131102
+# Gradient 0: -1.9654113928291355, Gradient 1: 0.012860517703949841, Gradient 2: 0.0021101252933546743
+# Cost: 48.93082392686347
