@@ -59,12 +59,20 @@ def is_not_small_enough(a, b):
 if __name__ == "__main__":
     X, Y = initialize_dataset()
 
-    alpha = 0.00001 # learning rate
+    alpha = 0.000010005 # learning rate
 
-    theta_0 = 2 * random() - 1
-    theta = np.random.rand(2)
-    for theta_i in theta:
-        theta_i = 2 * random() - 1
+    # =====CYCLE 1675902=====
+    # Theta 0: 34.083931393847095, Theta 1: -0.05498720655680534, Theta 2: -0.019328644817464505
+    # Gradient 0: -0.11028814023974463, Gradient 1: 0.0007216619310644602, Gradient 2: 0.00011840869648280952
+    # Cost: 31.890111545317904
+
+    theta_0 = 34.083931393847095;
+    theta = np.array([-0.05498720655680534, -0.019328644817464505])
+    
+    # theta_0 = 2 * random() - 1
+    # theta = np.random.rand(2)
+    # for theta_i in theta:
+    #     theta_i = 2 * random() - 1
 
     gradient_0 = calc_gradient_0(theta_0, theta, X, Y)
     gradient = np.zeros(2)
@@ -89,8 +97,3 @@ if __name__ == "__main__":
     print("------------------------")
     print("FOUND THETA 0: {}, THETA 1: {}, THETA 2: {} IS OPTIMUM".format(theta_0,theta[0], theta[1]))
     print("COST: {}".format(compute_cost(theta_0, theta, X, Y)))
-
-#     =====CYCLE 631468=====
-# Theta 0: 17.665405611242054, Theta 1: 0.05244614926070475, Theta 2: -0.001701217481131102
-# Gradient 0: -1.9654113928291355, Gradient 1: 0.012860517703949841, Gradient 2: 0.0021101252933546743
-# Cost: 48.93082392686347
