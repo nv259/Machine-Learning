@@ -1,0 +1,66 @@
+[33mcommit 8f8e32d10b2fc627e9af9976fb3d9075ff157fa7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Sat Sep 3 09:23:13 2022 +0700
+
+    rearrange structure and done Classification
+
+[33mcommit 24b3082f75ac343c9d20840428d26db79b749316[m
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Sat Aug 27 15:24:34 2022 +0700
+
+    rearrange structure and prepare MNIST dataset
+
+[33mcommit acd671ef6e96ca41b7b8895e56fdfa8951e1874e[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Sat Aug 27 13:23:31 2022 +0700
+
+    Finish it
+
+[33mcommit 0fc8f926ea0e38b3c20af10d304095070c47ef0b[m
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Fri Aug 26 21:07:51 2022 +0700
+
+    Train model (Linear, Decision, Forest)
+
+[33mcommit 0cda18c5a2c6f7959001ec35d7d0a74d24fca796[m
+Merge: fb54c3f caff4bf
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Thu Aug 25 09:32:19 2022 +0700
+
+    Merge branch 'master' of https://github.com/nv259/Machine-Learning
+
+[33mcommit fb54c3fd3b348ea58f517123326f1ed6679b3ddb[m
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Thu Aug 25 09:32:17 2022 +0700
+
+    result after 631468 cycle
+
+[33mcommit caff4bf05d67495e14024c347028f736f0bb0a40[m
+Author: nhatnv0378 <71512858+nv259@users.noreply.github.com>
+Date:   Wed Aug 24 11:14:51 2022 +0700
+
+    Create numpy.py
+
+[33mcommit 24a767658207cc30e8ac43f8868049c2541e7e7a[m
+Author: nhatnv0378 <71512858+nv259@users.noreply.github.com>
+Date:   Wed Aug 24 10:04:55 2022 +0700
+
+    Create README.md
+
+[33mcommit 4ca5b5d70f3169779a808b2da59b787dbe0fd593[m
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Wed Aug 24 09:41:43 2022 +0700
+
+    create house-price-predict base-on 2 inp features
+
+[33mcommit dc66a71cefe1bca6285c30d6fb6460c872d850ce[m
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Wed Aug 24 09:40:16 2022 +0700
+
+    update Boston house predict sklearn
+
+[33mcommit 288c2d4930e65eb2864e6d163fb3a877f78d2c8c[m
+Author: Nhatnv0378 <21520378@ms.uit.edu.vn>
+Date:   Tue Aug 23 19:34:15 2022 +0700
+
+    first commit
