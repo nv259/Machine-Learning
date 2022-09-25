@@ -1,0 +1,95 @@
+% Common library
+\documentclass[paper=a4,fontsize=13pt]{report}
+\usepackage[left=2.2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{indentfirst}
+\usepackage[utf8x]{vietnam}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{graphicx}
+\usepackage{blindtext}
+\usepackage[colorlinks,urlcolor=blue]{hyperref}
+\usepackage{fancyhdr}
+\renewcommand{\baselinestretch}{1.5} 
+%% Using table of content
+\usepackage{tabularx}
+%% Using to draw table
+\usepackage{float}
+\usepackage{array}
+\usepackage{makecell}
+%% Make beautiful header
+\pagestyle{fancy}
+\fancyhf{}
+%\lhead{}
+\rhead{UIT.Royals}
+\cfoot{\thepage}
+%% make bookmark
+%% \usepackage[unicode]{hyperref}
+
+\title{đồ án cuối kì}
+\author{UIT.Royals}
+\date{Ngay 13 thang 12 nam 2021}
+
+\newcommand{\MyChapter}[2]
+{
+    \phantomsection
+    \addcontentsline{toc}{chapter}{#1{. }#2}
+    \begin{center}
+        \Huge
+        \textbf{#2}
+    \end{center}
+    \vspace{20px}
+}
+
+\newcommand{\MySection}[2]
+{
+    \phantomsection
+    \addcontentsline{toc}{section}{#1{. }#2}
+    \Large
+    \textbf{#1{. }#2}
+    \par
+}
+
+\newcommand{\MySubsection}[2]
+{
+    \phantomsection
+    \addcontentsline{toc}{subsection}{#1{. }#2}
+    \Large
+    \textbf{#1{. }#2}
+    \par
+}
+
+\begin{document}
+\pagenumbering{gobble}
+\thispagestyle{empty}
+
+\begin{figure}[h!]
+    \includegraphics{title_top_uit_transparent.png}
+    \label{fig:logo_uit}
+\end{figure}
+
+\vspace{130px}
+
+{\centering{\textbf{\huge BÁO CÁO ĐỒ ÁN CUỐI KÌ}\par}}
+\vspace{15pt}
+{\centering{\textbf{\huge UIT.Royals}\par}}
+{\centering{\huge Ngày 13 tháng 12 năm 2021\par}}
+
+\vspace{120px}
+
+\Large{
+    \hspace{50px} {\textbf{Thành viên 1: } Nguyễn Việt Nhật - 21520378}\par
+    \hspace{50px} {\textbf{Thành viên 2: } Võ Thị Phương Anh - 21522883}\par
+    \hspace{50px} {\textbf{Thành viên 3: } Hà Trọng Tài - 21520436}\par
+    \hspace{50px} {\textbf{Thành viên 4: } Nguyễn Đức Nhân - 21520373}\par
+    \hspace{50px} {\textbf{Thành viên 5: } Lê Thị Thanh Tâm - 21522825}\par
+    \hspace{50px} {\textbf{Lớp: } SS004.M16.CLC}\par
+    \hspace{50px} {\textbf{Giảng viên: } ThS. Nguyễn Văn Toàn}\par
+    % \hspace{50px} {\textbf{Năm học: } 2021-2022}\par
+}
+\thispagestyle{empty}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{2}
+
+\end{document}
